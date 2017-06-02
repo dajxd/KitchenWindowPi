@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  //div#games
+  //  for item in games
+  //    div.gamediv
+  //      h1.gametitle=item.title
+  //      h2.score=item.score
+
+  div#calendar
+    for event in eventstoday
+      div.calevent
+        p.summary=event.summary
+        p.time=event.start
+
+
+
+  div#weather
+  div#news
+    for item in news
+      div
+        h1.title=item.title
+        p.abstract=item.abstract
+        p.section=item.section

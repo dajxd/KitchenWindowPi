@@ -1,0 +1,164 @@
+body {
+  font: 8px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #0091c2;
+  /*width: 1024px;*/
+  /*height: 768px;*/
+  overflow: hidden;
+  margin: 0;
+}
+#calendar {
+  width:25%;
+  height:50%;
+  font-size: 1.2em;
+  /*margin-top:1%;*/
+  margin-left:0;
+  position: absolute;
+  /*float: left;*/
+}
+#weather {
+  width:25%;
+  height:50%;
+  margin-top: 00px;
+  margin-left:75.5%;
+  position: absolute;
+  float:right;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+#news div {
+  /*margin-bottom: -20px;*/
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+  width:100%;
+
+}
+
+#news {
+  position: absolute;
+  margin-top:0;
+  margin-left: 25%;
+
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
+#news p {
+  margin-bottom: -15px;
+}
+
+
+
+.calevent {
+  /*margin-bottom: 20px;*/
+  /*margin: 0px;*/
+  /*height: 70px;*/
+  height: 20%;
+  padding-bottom: 5px;
+  }
+.calevent:nth-child(odd) {
+  background-color: #1f6377;
+}
+.time {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.summary {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  padding-top:6px;
+}
+#news {
+  float: left;
+  width:50%;
+  height:50%;
+  margin-top:0;
+  /*margin-left: 23%;*/
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 300;
+  height: 40%;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  background-color: #1f6377;
+}
+
+#weather ul {
+  margin-top: 10px;
+
+  padding: 0;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 20px;
+  /*margin: 10px;*/
+  font-size: 1.8em;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currentlysunny {
+  background-color: #dbe30d;
+  width: 30%;
+}
+
+
+#weather .currently{
+  width: 30%;
+}
+
+
+
+.title {
+
+}
+
+.abstract {
+  font-size: 1.7em;
+}
+
+#news div:first-child .section {
+  color: #0091c2;
+  margin-top: 20px;
+
+}
+#news div:first-child .abstract {
+  font-size: 1.8m;
+}
+.section {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #000000;
+  margin-right: 10px;
+  text-align: center;
+  float: right;
+  margin-top: 20px;
+}
+
+
+#news div:nth-child(odd){
+  background-color: #1f6377;
+}
+#news div:first-child {
+  font-size: 1.1em;
+  /*padding-bottom:50px;*/
+  background-color: #1b1b1b;
+}
+
+
