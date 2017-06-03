@@ -1,4 +1,4 @@
-//this is the git site version
+//this is the WS version
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
